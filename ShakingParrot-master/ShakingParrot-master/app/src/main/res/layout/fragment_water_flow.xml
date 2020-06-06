@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#161920"
+    tools:context=".fragment.WaterFlowFragment">
+
+<!--    todo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/placeholder_title"
+        android:textColor="#f0f1f6"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center"/>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#f0f1f6"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
